@@ -91,8 +91,8 @@ function generateRandomDiceImage(){
     matchPlayed += 1;
     var player1 = generateRandomNumber();
     var player2 = generateRandomNumber();
-    imgSrc1.setAttribute("src","/The-dicee-challenge/images/dice" + player1 + ".png");
-    imgSrc2.setAttribute("src","/The-dicee-challenge/images/dice" + player2 + ".png");
+    imgSrc1.setAttribute("src","images/dice" + player1 + ".png");
+    imgSrc2.setAttribute("src","images/dice" + player2 + ".png");
 
     // Determining Result of the game...
 
